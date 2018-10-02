@@ -7,28 +7,19 @@
   margin: .5rem
 }
 
-#mri {
-  display: inline-block
+#mri, #kyanite, #cwru {
+  display: inline-block;
 }
 
 #currentWork {
   list-style: none;
 }
 
-.technologies > i {
+.technologies > i, .technologies > img {
   margin: 1rem .5rem;
   vertical-align: middle
 }
 
 a.view {
   vertical-align: text-bottom;
-}
-
-@media only screen and (max-width: 768px) {
-  .navbar {
-    display: block;
-  }
-  #desktopLinks {
-    display: none
-  }
 }
