@@ -11,7 +11,7 @@
   display: inline-block;
 }
 
-#profile, #mri > div > img, #kyanite > div > img, #cwru > div > img {
+img {
   padding: .5rem;
   border-style: outset;
 }
@@ -22,12 +22,16 @@
 
 .technologies > i, .technologies > img {
   margin: 1rem .5rem;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 .technologies > div > section {
   border-style: outset;
   border-width: .5rem
+}
+
+.technologies > div > section > img {
+  border-style: none;
 }
 
 a.view {
