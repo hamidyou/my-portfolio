@@ -1,5 +1,27 @@
-.navbar {
-  display: none;
+
+#navbarResponsive > ul {
+  margin: auto;
+}
+
+#navbarResponsive > ul > li {
+  margin: .5rem
+}
+
+#mri {
+  display: inline-block
+}
+
+#currentWork {
+  list-style: none;
+}
+
+.technologies > i {
+  margin: 1rem .5rem;
+  vertical-align: middle
+}
+
+a.view {
+  vertical-align: text-bottom;
 }
 
 @media only screen and (max-width: 768px) {

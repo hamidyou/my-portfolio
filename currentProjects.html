@@ -28,21 +28,21 @@
         <ul class="navbar-nav">
           <li class="nav-item">
             <a href="#portfolio" class="text-light">
-              <button class="btn">PORTFOLIO</button>
+              PORTFOLIO
             </a>
           </li>
           <li class="nav-item">
-            <a href="currentProjects.html" class="text-light">
-              <button class="btn">PROJECTS</button>
+            <a href="#current" class="text-light">
+              PROJECTS
             </a>
           </li>
           <li class="nav-item">
             <a href="#skills" class="text-light">
-              <button class="btn">SKILLS</button>
+              SKILLS
           </li>
           <li class="nav-item">
             <a href="#contact" class="text-light">
-              <button class="btn">CONTACT</button>
+              CONTACT
             </a>
           </li>
         </ul>
@@ -53,54 +53,61 @@
   <div class="container my-5">
     <div class="row">
       <div class="col-md-12 text-justify">
-        <div class="card mb-5 bg-light">
-          <div class="card-body" id="indexBg">
-            <h1 class="text-dark py-2 text-center">Youssef Hamid</h1>
-            <hr>
-            <br>
-            <div class="text-center py-4">
-              <img class="border border-dark p-2 mb-4" src="assets/images/portfolioPic.jpg " alt="Family picture of Youssef and his
-    wife and sons on a brisk fall day. " />
-              <h3 class="pt-4">
-                Husband ~ Father ~ Son ~ Brother ~ Friend<br>
-                Developer ~ Musician ~ Professional
-              </h3>
-            </div>
-            <div class="row text-center" id="desktopLinks">
+        <section class="card px-3 my-5 bg-light" id="current">
+          <h4 class="card-header text-center bg-light">
+            Current Work & In-Progress Projects
+          </h4>
+          <div class="card-body">
+            <ul id="currentWork">
+              <li>
+                <div class="row m-auto" id="mri">
+                  <div class="col-md-3 float-left">
+                    <img src="assets/images/mriSoftware.png" alt="MRI Software Logo" class="img-fluid img-thumbnail">
+                  </div>
+                  <div class="col-md-9 float-right">
+                    <p>Client Experience Manager at <a href="www.mrisoftware.com">MRI Software</a>, in Solon, OH. In
+                      this
+                      role, I employ multiple skill sets such as product customization, client retention initiatives,
+                      project coordination, and much more.</p>
+                  </div>
+                </div>
+              </li>
               <hr>
-              <div class="col-md-3 my-2">
-                <a href="#portfolio">
-                  <button type="button" class="btn btn-outline-primary btn-lg">
-                    PORTFOLIO
-                  </button>
-                </a>
-              </div>
-              <div class="col-md-3 my-2">
-                <a href="#current">
-                  <button type="button" class="btn btn-outline-primary btn-lg">
-                    PROJECTS
-                  </button>
-                </a>
-              </div>
-              <div class="col-md-3 my-2">
-                <a href="#skills">
-                  <button type="button" class="btn btn-outline-primary btn-lg">
-                    SKILLS
-                  </button>
-                </a>
-              </div>
-              <div class="col-md-3 my-2">
-                <button type="button" class="btn btn-outline-primary btn-lg">
-                  CONTACT
-                </button>
-              </div>
-            </div>
+              <li>
+                <div class="row m-auto" id="mri">
+                  <div class="col-md-3 float-left">
+                    <img src="assets/images/Kyanite200w.png" alt="MRI Software Logo" class="img-fluid img-thumbnail">
+                  </div>
+                  <div class="col-md-9 float-right px-3">
+                    <p>
+                      <a href="https://github.com/hamidyou/kyanite-tutorial.git">Kyanite.js Tutorial</a> - Created by
+                      <a href="https://www.dusty.codes/portfolio">Dustin Hershman</a>, <a href="https://github.com/dhershman1/kyanite.git">Kyanite.js</a>
+                      is a light weight pure functional library with single type utility functions and it only depends
+                      on itself.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <hr>
+              <li>
+                <div class="row m-auto" id="mri">
+                  <div class="col-md-3 float-left">
+                    <img src="assets/images/cwru.jpg" alt="MRI Software Logo" class="img-fluid img-thumbnail">
+                  </div>
+                  <div class="col-md-9 float-right px-3">
+                    <p>
+                      Student at the <a href="https://bootcamp.case.edu/coding/">Case Western Reserve University Coding
+                        Bootcamp</a> - July 2018 Cohort.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   </div>
-
 
   <footer class="fixed-bottom text-light bg-secondary">
     <div class="container py-3">
@@ -119,7 +126,6 @@
           <i class="fab fa-instagram fa-2x px-2"></i>
         </a>
       </span>
-
     </div>
   </footer>
 </body>
