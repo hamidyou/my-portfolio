@@ -25,10 +25,10 @@ img {
   vertical-align: middle;
 }
 
-.technologies > div > section {
+/* .technologies > div > section {
   border-style: outset;
-  border-width: .5rem
-}
+  border-width: .25rem
+} */
 
 .technologies > div > section > img, #portfolioPage > img, #current > div > div > section > img{
   border-style: none;
