@@ -30,7 +30,7 @@ img {
   border-width: .5rem
 }
 
-.technologies > div > section > img {
+.technologies > div > section > img, #portfolioPage > img, #current > div > div > section > img{
   border-style: none;
 }
 
