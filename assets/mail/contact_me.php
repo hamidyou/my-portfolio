@@ -11,12 +11,12 @@ $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
 
-$to = "yhamid1982@gmail.com"; 
+$to = "youssef.hamid@hamidconsulting.com"; 
 $subject = "Website Contact Form:  $name";
 $body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email\n\nPhone: $phone\n\nMessage:\n$message";
-$header = "From: noreply@hamidconsulting.com\n"; 
+$header = "From: no-reply@hamidconsulting.com\n"; 
 $header .= "Reply-To: $email";	
 
 if(!mail($to, $subject, $body, $header))
-  https_response_code(500);
+  http_response_code(500);
 ?>
